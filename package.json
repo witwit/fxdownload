@@ -1,0 +1,34 @@
+{
+  "name": "fxdownload",
+  "version": "0.0.1",
+  "description": "downloads and extracts forex data (by minute) from forexite.com",
+  "main": "main.js",
+  "scripts": {
+    "test": "node_modules/.bin/grunt ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/witwit/fxdownload"
+  },
+  "keywords": ["forex","forex quotes","forex data"],
+  "author": "vitaly <wit@neferty.eu>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/witwit/fxdownload/issues"
+  },
+  "dependencies": {
+    "http-get"  :   "~0.5.x",
+    "rimraf"    :   "~2.x",
+    "adm-zip"   :   "x",
+    "extend"    :   "~1.2"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-mocha-cli": "~1.1.0",
+    "grunt-complexity": "~0.1.3",
+    "grunt-cli": "~0.1.9"
+  }
+}
