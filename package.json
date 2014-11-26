@@ -1,6 +1,6 @@
 {
   "name": "fxdownload",
-  "version": "0.0.1",
+  "version": "0.1",
   "description": "downloads and extracts forex data (by minute) from forexite.com",
   "main": "main.js",
   "scripts": {
